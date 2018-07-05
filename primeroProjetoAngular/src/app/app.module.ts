@@ -8,6 +8,8 @@ import { PessoaComponent } from './Pessoa/Cadastro/PessoaCadastro';
 import { Area1Component } from "./Areas/Area1/area1";
 import { Area2Component } from "./Areas/Area2/area2";
 import { SocioComponent } from './Criar_Components_com_CLI/socio/socio.component';
+import { Socio2Component } from './Criar_Components_com_CLI/socio2/socio.component';
+import { ClubeComponent } from './Criar_Components_com_CLI/clube/clube.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { SocioComponent } from './Criar_Components_com_CLI/socio/socio.component
     PessoaComponent,
     Area1Component,
     Area2Component,
-    SocioComponent
+    SocioComponent,
+    ClubeComponent,
+    Socio2Component
   ],
   imports: [
     BrowserModule
