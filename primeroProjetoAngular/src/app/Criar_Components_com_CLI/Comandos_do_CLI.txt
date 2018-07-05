@@ -1,0 +1,2 @@
+Para criar component com o CLI digite: 
+    ng generate component nome_da_pasta_que_conterá_os_arquivos

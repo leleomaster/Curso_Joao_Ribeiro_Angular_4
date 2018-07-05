@@ -7,6 +7,7 @@ import { PessoaComponent } from './Pessoa/Cadastro/PessoaCadastro';
 
 import { Area1Component } from "./Areas/Area1/area1";
 import { Area2Component } from "./Areas/Area2/area2";
+import { SocioComponent } from './Criar_Components_com_CLI/socio/socio.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { Area2Component } from "./Areas/Area2/area2";
     testeComponent, 
     PessoaComponent,
     Area1Component,
-    Area2Component
+    Area2Component,
+    SocioComponent
   ],
   imports: [
     BrowserModule
