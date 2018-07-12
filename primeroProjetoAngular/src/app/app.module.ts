@@ -11,6 +11,8 @@ import { SocioComponent } from './Criar_Components_com_CLI/socio/socio.component
 import { Socio2Component } from './Criar_Components_com_CLI/socio2/socio.component';
 import { ClubeComponent } from './Criar_Components_com_CLI/clube/clube.component';
 import { InterpolationComponent } from './Databinding/interpolation/interpolation.component';
+import { DataBindPropertyComponent } from './data-bind-property/data-bind-property.component';
+import { DataBindingExercicioComponent } from './data-binding-exercicio/data-binding-exercicio.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { InterpolationComponent } from './Databinding/interpolation/interpolatio
     SocioComponent,
     ClubeComponent,
     Socio2Component,
-    InterpolationComponent
+    InterpolationComponent,
+    DataBindPropertyComponent,
+    DataBindingExercicioComponent
   ],
   imports: [
     BrowserModule

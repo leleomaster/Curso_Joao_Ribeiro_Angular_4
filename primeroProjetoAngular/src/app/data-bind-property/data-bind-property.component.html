@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="panel panel-default espaco">
+
+
+      <button class="btn btn-primary" (click)="MudarTexto(false, 'Texto foi alterado')">Executar</button>
+      <button class="btn btn-primary" (click)="MudarTexto(true, 'Texto padrão')"
+        [disabled]="inativo" >Voltar</button>
+
+    <p>{{texto}}</p>
+
+  </div>
+</div>

@@ -1,0 +1,35 @@
+<div class="container">
+  <h2>Exercício</h2>
+  <div class="panel panel-default">
+    <div class="row">
+    
+      <div class="col-sm-4 text-center">
+        <p>
+          {{texto1}}
+        </p>
+        <button class="btn btn-primary" (click)="AtivaInativaOutrosComandos()">
+            {{textoComando1}}</button>
+      </div>
+    
+      <div class="col-sm-4 text-center">
+        <p>
+          {{texto2}}
+        </p>
+        <button class="btn btn-primary" 
+        [disabled]="inativo"
+        (click)="AlteraTextoComandos()">{{textoComando2}}</button>
+      </div>
+    
+      <div class="col-sm-4 text-center">
+        <p>
+          {{texto3}}
+        </p>
+        <button class="btn btn-primary" 
+        [disabled]="inativo"
+        (click)="ColocaTextoOriginalComandos()">{{textoComando3}}</button>
+      </div>
+   
+    </div>
+  </div>
+</div>
+<br>
