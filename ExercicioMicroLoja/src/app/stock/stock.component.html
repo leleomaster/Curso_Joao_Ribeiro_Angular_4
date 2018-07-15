@@ -1,0 +1,16 @@
+<h2>STOCK</h2>
+<div class="col-sm-4">
+    <p> Ananases: {{ ananase }}</p>
+    <p> Banana: {{ banana }}</p>
+    <p> Laranjas: {{ laranja }}</p>
+    <p> Total de Produtos: {{ totalProdutos }}</p>
+</div>
+
+<div class="col-sm-8">
+    <button class="btn btn-primary" (click)="AdicionarAnanase()">+ Ananâs</button>
+    <button class="btn btn-primary" (click)="RemoverAnanase()">- Ananâs</button>
+    <button class="btn btn-primary" (click)="AdicionarBanana()">+ Banana</button>
+    <button class="btn btn-primary" (click)="RemoverBanana()">- Banana</button>
+    <button class="btn btn-primary" (click)="AdicionarLaranja()">+ Laranja</button>
+    <button class="btn btn-primary" (click)="RemoverLaranja()">- Laranja</button>
+</div>

@@ -1,0 +1,15 @@
+<h2>LOJA</h2>
+
+<div class="row">
+ 
+  <div class="panel panel-default col-sm-3" 
+    *ngFor="let produto of produtos">
+      <img src="../../assets/{{produto.imagem}}" alt=""> {{ produto.nome }}
+    </div>
+</div>
+
+<div class="row">
+  <button class="btn btn-primary" (click)="AdicionarProdutos('A')">+ Ananas</button>
+  <button class="btn btn-primary" (click)="AdicionarProdutos('B')">+ Banana</button>
+  <button class="btn btn-primary" (click)="AdicionarProdutos('L')">+ Laranja</button>
+</div>

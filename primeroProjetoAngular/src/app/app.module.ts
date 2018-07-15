@@ -33,7 +33,7 @@ import { DirectivesNgStyleComponent } from './directives-ng-style/directives-ng-
     DataBindingExercicioComponent,
     DataBindingEventComponent,
     IntroducaoDirectivesComponent,
-    DirectivesNgStyleComponent    
+    DirectivesNgStyleComponent   
   ],
   imports: [
     BrowserModule,

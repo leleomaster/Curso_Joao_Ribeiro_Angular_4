@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="panel panel-default col-sm-12">
+    <div class="panel panel-body">
+      <div class="col-sm-9">
+        <img src="../assets/store_logo.png" alt="Store">
+      </div>
+
+      <div class="col-sm-3">
+        <button class="btn btn-primary" (click)="ExibirLoja()">
+          Loja
+        </button>
+        <button class="btn btn-success" (click)="ExibirStock()">
+          Stock
+        </button>
+      </div>
+
+      <div class="panel panel-default col-sm-12">
+       
+          <app-loja *ngIf="ehParaExibirLoja"></app-loja>
+          <app-stock *ngIf="ehParaExibirStock"></app-stock>
+        </div>
+    
+    </div>
+  </div>
+</div>
