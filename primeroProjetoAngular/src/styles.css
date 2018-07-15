@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+.format-panel-default{
+    border: 1px solid cornflowerblue;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px  silver;
+}

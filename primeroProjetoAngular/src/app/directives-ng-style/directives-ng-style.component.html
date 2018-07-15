@@ -1,0 +1,70 @@
+<div class="format-panel-default">
+  <div class="container">
+    <h2>NgStyle</h2>
+    <div class="panel panel-default">
+
+      <div [ngStyle]="{'color':'black', backgroundColor: cor}">
+        <p>Texto de caixa 1</p>
+      </div>
+
+      <button (click)="btn_Click()" class="btn btn-primary">Alterar cor 1</button>
+
+    </div>
+  </div>
+</div>
+
+<div class="format-panel-default">
+    <div class="container">
+      <h2>NgClass</h2>
+      <div class="panel panel-default">
+  
+        <div [ngStyle]="{'color':'white', backgroundColor: 'red'}">
+          <p>Texto de um paragráfo</p>
+        </div>
+  
+        <div [ngStyle]="{'color':'yellow', backgroundColor: 'green'}">
+          <p>Texto de um paragráfo</p>
+        </div>
+  
+        <div [ngStyle]="AlterarEstilo()">
+          <p>Texto de um paragráfo</p>
+        </div>
+        <button (click)="btn_Click()" class="btn btn-primary">Alterar cor 1</button>
+  
+        <!--NgClass-->
+        <p [ngClass]="{ativo: status === true, inativo: status === false}">Novo paragráfo</p>
+        <button (click)="Altenar()" class="btn btn-primary">{{ status }}</button>
+  
+      </div>
+    </div>
+  </div>
+
+  
+<div class="format-panel-default">
+    <div class="container">
+      <h2>NgFor</h2>
+      <div class="panel panel-default">
+        
+          <p *ngFor="let nome of GetListaNomes()">
+            {{nome}}
+          </p>
+          
+          <div 
+          *ngFor="let nome of GetListaNomes(); let indice = index"
+          [ngClass]="(indice % 2 == 0) ? 'alert alert-danger' : 'alert alert-success'"
+          >
+          <p>
+              {{nome}} " - " {{ indice % 2 == 0 }} " - " {{ indice }}
+
+            </p>           
+          </div>
+
+          <p *ngFor="let nome of GetListaNomes(); let indice = index">
+            {{indice}}
+          </p>
+       
+        <button (click)="Altenar()" class="btn btn-primary">{{ status }}</button>
+  
+      </div>
+    </div>
+  </div>

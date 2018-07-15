@@ -15,6 +15,8 @@ import { DataBindPropertyComponent } from './data-bind-property/data-bind-proper
 import { DataBindingExercicioComponent } from './data-binding-exercicio/data-binding-exercicio.component';
 import { DataBindingEventComponent } from './data-binding-event/data-binding-event.component';
 import { FormsModule } from '@angular/forms';
+import { IntroducaoDirectivesComponent } from './introducao-directives/introducao-directives.component';
+import { DirectivesNgStyleComponent } from './directives-ng-style/directives-ng-style.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { FormsModule } from '@angular/forms';
     InterpolationComponent,
     DataBindPropertyComponent,
     DataBindingExercicioComponent,
-    DataBindingEventComponent    
+    DataBindingEventComponent,
+    IntroducaoDirectivesComponent,
+    DirectivesNgStyleComponent    
   ],
   imports: [
     BrowserModule,
