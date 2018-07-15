@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="panel panel-default">
+      <button class="btn btn-success" (click)="btn_click($event)">
+        Clicar
+      </button>
+
+      <input type="text" name="text_texto" id="text_texto"
+      (input)="teclaPressionada($event)">
+
+      <p>{{valor}}</p>
+  </div>
+  <div class="panel panel-default">
+    <p>{{ texto }}</p>
+
+    <button class="btn btn-success"
+    (click)="Executar($event)"
+    (mouseover)="mouseover($event)"
+    >
+      Executa eventos Javascript
+    </button>
+
+    <button class="btn btn-success"
+    (mousemove)="mousemove($event)"
+    >
+      Executa eventos Javascript: mouseMove
+    </button>
+
+    <input type="text" name="text" id="text"
+    (input)="ExecutarText($event)">
+
+  </div>
+
+  <div class="panel panel-default" id="div-toWayDatabinding">
+    <h2>Databinding nois dois sentidos</h2>
+
+    <!-- <input type="text" class="form-control" 
+    (input)="text_changed($event)"> -->
+
+    <input type="text" class="form-control" [(ngModel)]="valor2">
+
+    <p>{{ valor2 }}</p>
+
+    <p>[] para property</p>
+
+    <p>() para eventos</p>
+
+    <button class="btn btn-success" (click)="AlterarTexto()">
+      Clicar
+    </button>
+
+  </div>
+</div>

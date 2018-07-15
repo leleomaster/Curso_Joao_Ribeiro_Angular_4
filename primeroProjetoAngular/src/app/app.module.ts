@@ -13,6 +13,8 @@ import { ClubeComponent } from './Criar_Components_com_CLI/clube/clube.component
 import { InterpolationComponent } from './Databinding/interpolation/interpolation.component';
 import { DataBindPropertyComponent } from './data-bind-property/data-bind-property.component';
 import { DataBindingExercicioComponent } from './data-binding-exercicio/data-binding-exercicio.component';
+import { DataBindingEventComponent } from './data-binding-event/data-binding-event.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,10 +28,12 @@ import { DataBindingExercicioComponent } from './data-binding-exercicio/data-bin
     Socio2Component,
     InterpolationComponent,
     DataBindPropertyComponent,
-    DataBindingExercicioComponent
+    DataBindingExercicioComponent,
+    DataBindingEventComponent    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
