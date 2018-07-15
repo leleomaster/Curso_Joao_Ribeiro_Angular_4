@@ -1,0 +1,57 @@
+<div class="format-panel-default">
+  <h2>
+    Directives
+  </h2>
+
+  <p>
+    Directive são uma instrução inseridas dentro do DOM.
+  </p>
+  <p>
+    Components são casos específicos de uma Directive.
+  </p>
+  <p>
+    Podemos usar Directives existentes ou construir as nossas.
+  </p>
+  <p>
+    Uma Directive é uma classe com o decorator @Directive
+  </p>
+  <p>
+    Existem outros dois tipos de Directive.
+  </p>
+  <p>
+    1 - Structural DIrective - Alteram o layout da DOM, adicionando, removendo ou substituindo elementos.
+  </p>
+  <p>
+    2 - Attribute Directive - Alteram o aspecto e comportamento de elementos existentes.
+  </p>
+
+  <div class="container format-panel-default">
+    <div class="panel panel-default">
+
+      <p *ngIf="apresentar">Este é um paragráfo</p>
+
+      <button class="btn btn-warning" (click)="btn_Click()">{{texto_botaso}}</button>
+
+    </div>
+  </div>
+
+  <div class="container format-panel-default">
+    <div class="panel panel-default">
+
+      <p *ngIf="apresentar2; else outroParagrafo" style="background-color: silver; color: red; font-weight: bold;">
+        Este é um paragráfo 1
+      </p>
+
+
+      <ng-template #outroParagrafo>
+        <p style="color: greenyellow; background-color: black; font-weight: bold;">
+          Este é um paragráfo 22222222222
+        </p>
+      </ng-template>
+
+      <button class="btn btn-danger" (click)="btn_Click2()">Click</button>
+
+    </div>
+  </div>
+
+</div>
