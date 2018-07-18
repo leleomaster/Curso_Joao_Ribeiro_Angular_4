@@ -17,6 +17,7 @@ import { DataBindingEventComponent } from './data-binding-event/data-binding-eve
 import { FormsModule } from '@angular/forms';
 import { IntroducaoDirectivesComponent } from './introducao-directives/introducao-directives.component';
 import { DirectivesNgStyleComponent } from './directives-ng-style/directives-ng-style.component';
+import { TrabalhandoComModelComponent } from './trabalhando-com-model/trabalhando-com-model.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { DirectivesNgStyleComponent } from './directives-ng-style/directives-ng-
     DataBindingExercicioComponent,
     DataBindingEventComponent,
     IntroducaoDirectivesComponent,
-    DirectivesNgStyleComponent   
+    DirectivesNgStyleComponent,
+    TrabalhandoComModelComponent   
   ],
   imports: [
     BrowserModule,
