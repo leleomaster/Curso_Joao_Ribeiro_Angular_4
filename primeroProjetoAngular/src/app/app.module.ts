@@ -18,6 +18,8 @@ import { FormsModule } from '@angular/forms';
 import { IntroducaoDirectivesComponent } from './introducao-directives/introducao-directives.component';
 import { DirectivesNgStyleComponent } from './directives-ng-style/directives-ng-style.component';
 import { TrabalhandoComModelComponent } from './trabalhando-com-model/trabalhando-com-model.component';
+import { TrabalhandoComDadosParentEChildComponent } from './trabalhando-com-dados-parent-e-child/trabalhando-com-dados-parent-e-child.component';
+import { SociosComponent } from './trabalhando-com-dados-parent-e-child/socios/socios.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { TrabalhandoComModelComponent } from './trabalhando-com-model/trabalhand
     DataBindingEventComponent,
     IntroducaoDirectivesComponent,
     DirectivesNgStyleComponent,
-    TrabalhandoComModelComponent   
+    TrabalhandoComModelComponent,
+    TrabalhandoComDadosParentEChildComponent,
+    SociosComponent   
   ],
   imports: [
     BrowserModule,
