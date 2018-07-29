@@ -9,6 +9,8 @@ export class SociosComponent {
 
   @Input() socios = [];
 
+  @Input("novo_nome_valor") valor: string = "antonio";
+
   constructor() {
 
     this.socios.push({ nome: "João", contato: "2354564" });
