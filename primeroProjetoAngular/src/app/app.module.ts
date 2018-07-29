@@ -20,6 +20,8 @@ import { DirectivesNgStyleComponent } from './directives-ng-style/directives-ng-
 import { TrabalhandoComModelComponent } from './trabalhando-com-model/trabalhando-com-model.component';
 import { TrabalhandoComDadosParentEChildComponent } from './trabalhando-com-dados-parent-e-child/trabalhando-com-dados-parent-e-child.component';
 import { SociosComponent } from './trabalhando-com-dados-parent-e-child/socios/socios.component';
+import { CustomEventsBindingComponent } from './custom-events-binding/custom-events-binding.component';
+import { MenuComponent } from './custom-events-binding/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { SociosComponent } from './trabalhando-com-dados-parent-e-child/socios/s
     DirectivesNgStyleComponent,
     TrabalhandoComModelComponent,
     TrabalhandoComDadosParentEChildComponent,
-    SociosComponent   
+    SociosComponent,
+    CustomEventsBindingComponent,
+    MenuComponent   
   ],
   imports: [
     BrowserModule,
