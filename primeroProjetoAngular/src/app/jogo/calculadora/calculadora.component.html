@@ -1,0 +1,16 @@
+<div class="format-panel-default">
+  <div class="container">
+    <h2>Jogo matemático</h2>
+    <hr>
+
+    <div class="for-inline">
+      <label>{{str_operacao}} </label> 
+
+      <input type="number" (input)="DefinirResultado($event)">
+
+      <button class="btn btn-primary"(click)="AvaliarResultadoInserido()">
+        OK</button>
+
+    </div>
+  </div>
+</div>

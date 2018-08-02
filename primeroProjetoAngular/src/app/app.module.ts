@@ -22,6 +22,8 @@ import { TrabalhandoComDadosParentEChildComponent } from './trabalhando-com-dado
 import { SociosComponent } from './trabalhando-com-dados-parent-e-child/socios/socios.component';
 import { CustomEventsBindingComponent } from './custom-events-binding/custom-events-binding.component';
 import { MenuComponent } from './custom-events-binding/menu/menu.component';
+import { JogoComponent } from './jogo/jogo.component';
+import { CalculadoraComponent } from './jogo/calculadora/calculadora.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { MenuComponent } from './custom-events-binding/menu/menu.component';
     TrabalhandoComDadosParentEChildComponent,
     SociosComponent,
     CustomEventsBindingComponent,
-    MenuComponent   
+    MenuComponent,
+    JogoComponent,
+    CalculadoraComponent   
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,23 @@
+<div class="format-panel-default">
+  <div class="container">
+
+    <app-calculadora (resposta_final)="AvaliarResposta($event)"></app-calculadora>
+    
+    <div class="text-center">
+        <div [class]="estiloAlerta">
+          {{ resposta }} 
+        </div>
+  
+
+        <div class="text-center">
+            <h5>Respostas certas: {{ respostas_certas }} </h5>
+      
+          </div>
+          <div class="text-center">
+              <h5>Respostas erradas: {{ respostas_erradas }} </h5>
+        
+            </div>
+      </div>
+
+    </div>
+  </div>
