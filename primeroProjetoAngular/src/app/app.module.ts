@@ -26,6 +26,7 @@ import { JogoComponent } from './jogo/jogo.component';
 import { CalculadoraComponent } from './jogo/calculadora/calculadora.component';
 import { Comp1Component } from './comp1/comp1.component';
 import { Comp2Component } from './comp2/comp2.component';
+import { AcessoElementoDomViewchildComponent } from './acesso-elemento-dom-viewchild/acesso-elemento-dom-viewchild.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { Comp2Component } from './comp2/comp2.component';
     JogoComponent,
     CalculadoraComponent,
     Comp1Component,
-    Comp2Component   
+    Comp2Component,
+    AcessoElementoDomViewchildComponent   
   ],
   imports: [
     BrowserModule,
