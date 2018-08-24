@@ -1,0 +1,12 @@
+<div class="format-panel-default">
+  <div class="container">
+    <p>
+      <input type="text" #elemento>
+      <button (click)="AlterarTexto(elemento, paragrafo)">Clicar</button>
+
+    </p>
+    <p class="alert alert-danger" #paragrafo>
+      {{ valor }}
+    </p>
+  </div>
+</div>

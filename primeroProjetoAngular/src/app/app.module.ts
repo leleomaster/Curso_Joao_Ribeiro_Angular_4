@@ -24,6 +24,8 @@ import { CustomEventsBindingComponent } from './custom-events-binding/custom-eve
 import { MenuComponent } from './custom-events-binding/menu/menu.component';
 import { JogoComponent } from './jogo/jogo.component';
 import { CalculadoraComponent } from './jogo/calculadora/calculadora.component';
+import { Comp1Component } from './comp1/comp1.component';
+import { Comp2Component } from './comp2/comp2.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +49,9 @@ import { CalculadoraComponent } from './jogo/calculadora/calculadora.component';
     CustomEventsBindingComponent,
     MenuComponent,
     JogoComponent,
-    CalculadoraComponent   
+    CalculadoraComponent,
+    Comp1Component,
+    Comp2Component   
   ],
   imports: [
     BrowserModule,

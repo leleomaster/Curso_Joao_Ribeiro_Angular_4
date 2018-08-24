@@ -27,7 +27,7 @@ export class CalculadoraComponent {
   }
 
   DefinirResultado(evento: Event) {
-    this.valor_inserido = evento.target.value;
+    //this.valor_inserido = evento.target.value;
   }
 
   AvaliarResultadoInserido() {
