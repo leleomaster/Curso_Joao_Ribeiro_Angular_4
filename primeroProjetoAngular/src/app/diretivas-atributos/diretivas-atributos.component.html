@@ -1,0 +1,23 @@
+<div class="container format-panel-default">
+  <div class="panel panel-default">
+
+    <ul class="list-group" *ngIf="ver">
+      <li class="list-group-item"
+      [ngClass]="{'cor-fundo' : vercss}"
+      *ngFor="let nome of nomes"
+      [ngStyle]="{'color': vercss == true ? 'red' : 'green'}"
+      >
+        {{nome}}
+      </li>
+    </ul>
+
+    <hr>
+
+    <button class="btn btn-primary"
+    (click)="ver =!ver">Ver nomes = {{ver}}</button>
+
+    <button class="btn btn-primary"
+    (click)="vercss =!vercss">Mudar CSS</button>
+    
+  </div>
+</div>

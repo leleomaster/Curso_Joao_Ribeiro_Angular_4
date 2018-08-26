@@ -29,6 +29,7 @@ import { Comp2Component } from './comp2/comp2.component';
 import { AcessoElementoDomViewchildComponent } from './acesso-elemento-dom-viewchild/acesso-elemento-dom-viewchild.component';
 import { UtitlizandoDiretivaNgContentComponent } from './utitlizando-diretiva-ng-content/utitlizando-diretiva-ng-content.component';
 import { CicloVidaComponentComponent } from './ciclo-vida-component/ciclo-vida-component.component';
+import { DiretivasAtributosComponent } from './diretivas-atributos/diretivas-atributos.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { CicloVidaComponentComponent } from './ciclo-vida-component/ciclo-vida-c
     Comp2Component,
     AcessoElementoDomViewchildComponent,
     UtitlizandoDiretivaNgContentComponent,
-    CicloVidaComponentComponent   
+    CicloVidaComponentComponent,
+    DiretivasAtributosComponent   
   ],
   imports: [
     BrowserModule,
