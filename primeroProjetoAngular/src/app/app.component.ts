@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'primeiro';
+ 
+  // Utlizado no aprendizado: utilizando a diretiva ng-content
+  texto: string = "Mollit ea tempor et laborum enim ipsum veniam excepteur.";
 }

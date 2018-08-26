@@ -27,6 +27,7 @@ import { CalculadoraComponent } from './jogo/calculadora/calculadora.component';
 import { Comp1Component } from './comp1/comp1.component';
 import { Comp2Component } from './comp2/comp2.component';
 import { AcessoElementoDomViewchildComponent } from './acesso-elemento-dom-viewchild/acesso-elemento-dom-viewchild.component';
+import { UtitlizandoDiretivaNgContentComponent } from './utitlizando-diretiva-ng-content/utitlizando-diretiva-ng-content.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { AcessoElementoDomViewchildComponent } from './acesso-elemento-dom-viewc
     CalculadoraComponent,
     Comp1Component,
     Comp2Component,
-    AcessoElementoDomViewchildComponent   
+    AcessoElementoDomViewchildComponent,
+    UtitlizandoDiretivaNgContentComponent   
   ],
   imports: [
     BrowserModule,
