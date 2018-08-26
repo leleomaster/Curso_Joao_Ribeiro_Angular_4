@@ -30,6 +30,7 @@ import { AcessoElementoDomViewchildComponent } from './acesso-elemento-dom-viewc
 import { UtitlizandoDiretivaNgContentComponent } from './utitlizando-diretiva-ng-content/utitlizando-diretiva-ng-content.component';
 import { CicloVidaComponentComponent } from './ciclo-vida-component/ciclo-vida-component.component';
 import { DiretivasAtributosComponent } from './diretivas-atributos/diretivas-atributos.component';
+import { HostListenerEHostBindingComponent } from './host-listener-e-host-binding/host-listener-e-host-binding.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { DiretivasAtributosComponent } from './diretivas-atributos/diretivas-atr
     AcessoElementoDomViewchildComponent,
     UtitlizandoDiretivaNgContentComponent,
     CicloVidaComponentComponent,
-    DiretivasAtributosComponent   
+    DiretivasAtributosComponent,
+    HostListenerEHostBindingComponent   
   ],
   imports: [
     BrowserModule,
